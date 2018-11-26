@@ -1,87 +1,95 @@
-body, .slider, .wrapper, .slide-content {
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 100%;
-    height: 100vh;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.slider,
+.wrapper,
+.slide-content {
+  width: 100%;
+  height: 100vh;
 }
 
 .wrapper {
-    position: relative;
-    height: 100vh;
+  position: relative;
+  height: 100vh;
 }
 
 .slider {
-    height: 100vh;
+  height: 100vh;
 }
 
 .slide-content {
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-end;
-    text-align: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
 }
 
 p {
-    margin: 0;
-    padding: 0;
-    font-size: 3rem;
-    color: #eee;
-    padding: 0 1rem;
+  margin: 0;
+  padding: 0;
+  font-size: 3rem;
+  color: #eee;
+  padding: 0 1rem;
 }
 
 .arrow {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    margin-top: -35px;
-    color: #fff;
-    font-size: 3rem;
-    display: inline-block;
-    text-decoration: none;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -35px;
+  color: #fff;
+  font-size: 3rem;
+  display: inline-block;
+  text-decoration: none;
 }
 
 #arrow-left {
-    display: inline-block;
-    left: 0;
-    margin-left: 30px;
+  display: inline-block;
+  left: 0;
+  margin-left: 30px;
 }
 
 #arrow-right {
-    right: 0;
-    margin-right: 30px;
+  right: 0;
+  margin-right: 30px;
 }
 
-
 .slide {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .slide-1 {
-    background-image: url(img/01.jpeg);
+  background-image: url(img/01.jpeg);
 }
 .slide-2 {
-    background-image: url(img/02.jpeg);
+  background-image: url(img/02.jpeg);
 }
 .slide-3 {
-    background-image: url(img/03.jpeg);
+  background-image: url(img/03.jpeg);
 }
 .slide-4 {
-    background-image: url(img/04.jpg);
+  background-image: url(img/04.jpg);
 }
 .slide-5 {
-    background-image: url(img/05.jpeg);
+  background-image: url(img/05.jpeg);
 }
 
 .photo img {
-    max-width: 100%;
-    margin: 1rem auto;
-    height: auto;
-    display: block;
+  max-width: 100%;
+  margin: 1rem auto;
+  height: auto;
+  display: block;
 }
